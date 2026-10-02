@@ -1,0 +1,3 @@
+# ignore app cache folders
+.cache/
+__pycache__/

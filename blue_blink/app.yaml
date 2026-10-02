@@ -1,0 +1,5 @@
+name: Blue Blink
+icon: 🔵
+description: Blink the onboard RGB LED blue once per second, driven from Python.
+ports: []
+bricks: []
