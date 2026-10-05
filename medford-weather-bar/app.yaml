@@ -1,0 +1,7 @@
+name: Medford Weather Bar
+description: Shows the current weather in Medford, MA in a small status bar.
+ports: []
+bricks:
+- arduino:web_ui: {}
+- arduino:weather_forecast: {}
+icon: 🌤️

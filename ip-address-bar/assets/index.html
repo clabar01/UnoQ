@@ -1,0 +1,33 @@
+<!--
+SPDX-FileCopyrightText: Copyright (C) Arduino s.r.l. and/or its affiliated companies
+
+SPDX-License-Identifier: MPL-2.0
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IP Address Bar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="stage">
+    <h1>Board Network Info</h1>
+    <p>The board's IP address is shown in the status bar below.</p>
+  </main>
+
+  <footer class="statusbar" id="statusbar">
+    <span class="dot" id="dot"></span>
+    <span class="label">IP</span>
+    <span class="ip" id="ip">—</span>
+  </footer>
+
+  <script src="libs/socket.io.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
